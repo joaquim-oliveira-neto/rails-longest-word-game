@@ -1,0 +1,13 @@
+<h1> Now your result </h1>
+<p> Your word: <%= @attempt %> </p>
+<p> Translation: <%= @result[:translation] %> </p>
+<p> Time Taken to answer: <%= @result[:time] %> </p>
+<p> Your score: <%= @result[:score] %> </p>
+<p> Your total score: <%= @total_score %>  </p>
+<p> Message: <%=@result[:message] %> </p>
+
+<%= link_to "play again", game_path, class: "btn btn-primary"  %>
+
+
+
+
